@@ -71,4 +71,88 @@ a.nav-item:hover {
 	grid-area: header;
 	background:white;
 	filter: drop-shadow(0px 1px 5px #ccc);
+	padding-top:10px;
+	padding-right:30px;
+	font-weight: 600;
+}
+
+.header-section {
+	padding:10px 20px;
+	display:grid;
+	grid-template-columns: 3fr 1fr;
+}
+
+.header-group {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:20px;
+}
+
+i {
+	vertical-align: center;
+}
+
+#search {
+	width:100%;
+	border-radius:8px;
+	border: 1px solid #ccc;
+	outline:none;
+	padding:8px;
+}
+
+.icon-sm:hover,
+.icon-md:hover {
+	transform: scale(1.01);
+	cursor:pointer;
+}
+
+.icon-sm {
+	height:40px;
+	width:40px;
+	border-radius:50%;
+}
+
+.icon-md {
+	height:70px;
+	width:70px;
+	border-radius:50%;
+}
+
+.header-welcome {
+	justify-content: flex-start;
+}
+
+.flex-col {
+	justify-self: stretch;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+	gap:8px;
+}
+
+.hello {
+	font-size: 0.6rem;
+}
+
+.hello-name {
+	font-size: 1.2rem;
+}
+
+.btn-group {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+button {
+	border-radius:12px;
+	padding:8px 12px;
+	background: #0e7490;
+	color:white;
+	outline:none;
+	border: none;
+}
+
+button:hover {
+	cursor: pointer;
 }
